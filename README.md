@@ -1,2 +1,2 @@
 # Angular-Springboot
-Primeiro projeto  Java Angular com Spring
+projeto  Java Angular com Spring
