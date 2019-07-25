@@ -1,0 +1,17 @@
+<h2>Detalhes da Pessoa</h2>
+<hr>
+<div *ngIf="pessoa">
+  <div>
+    <label><strong>Nome: </strong></label> {{pessoa.nome}}
+  </div>
+  <div>
+    <label><strong>Sobrenome: </strong></label> {{pessoa.sobrenome}}
+  </div>
+  <div>
+    <label><strong>E-mail: </strong></label> {{pessoa.email}}
+  </div>
+</div>
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">
+  Voltar para a lista</button><br>
